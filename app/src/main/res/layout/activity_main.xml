@@ -47,4 +47,109 @@
         android:hint="@string/dura_o_do_churrasco_em_horas"
         />
 
+    <ImageView
+        android:id="@+id/carne"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/carne"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/duracao"/>
+
+    <TextView
+        android:id="@+id/valor_carne"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/carne"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/duracao"
+        android:text="0"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/text_carne"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/valor_carne"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/duracao"
+        android:text="@string/kg_de_carne"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/beer"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/beer"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/carne"/>
+
+    <TextView
+        android:id="@+id/valor_beer"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/beer"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/carne"
+        android:text="0"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/text_beer"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/valor_beer"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/carne"
+        android:text="@string/latas_de_cerveja"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/refri"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/refri"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/beer"/>
+
+    <TextView
+        android:id="@+id/valor_refri"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/refri"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/beer"
+        android:text="0"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/text_refri"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/valor_refri"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/beer"
+        android:text="Refrigerante de 2L"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/button_calcular"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/refri"
+        android:text="Calcular"/>
+
 </RelativeLayout>
