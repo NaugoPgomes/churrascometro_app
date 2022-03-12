@@ -24,4 +24,4 @@
 + o App foi feito em kotlin.
 + o App so funciona em dispositivos android.
   
-  > Status: Completo ✔️
+> Status: Completo ✔️
