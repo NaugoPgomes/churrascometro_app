@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fundo1"
     android:padding="16dp"
     tools:context=".MainActivity">
 
@@ -12,7 +13,9 @@
         android:id="@+id/adutos"
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:textColorHint="@color/white"
         android:layout_marginTop="30dp"
+        android:textColor="@color/white"
         android:inputType="number"
         android:hint="@string/adutos_que_bebem"
         />
@@ -22,6 +25,8 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginTop="30dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         android:layout_below="@+id/adutos"
         android:inputType="number"
         android:hint="@string/adutos_que_n_o_bebem"
@@ -32,6 +37,8 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginTop="30dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         android:layout_below="@+id/aduto_n_bebem"
         android:inputType="number"
         android:hint="@string/quantidade_de_criancas"
@@ -42,6 +49,8 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginTop="30dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         android:layout_below="@+id/criancas"
         android:inputType="number"
         android:hint="@string/dura_o_do_churrasco_em_horas"
@@ -62,6 +71,7 @@
         android:layout_toRightOf="@+id/carne"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="70dp"
+        android:textColor="@color/white"
         android:layout_below="@+id/duracao"
         android:text="0"
         android:textSize="20dp"/>
@@ -74,6 +84,7 @@
         android:layout_toRightOf="@+id/valor_carne"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="70dp"
+        android:textColor="@color/white"
         android:layout_below="@+id/duracao"
         android:text="@string/kg_de_carne"
         android:textSize="20dp"
@@ -95,6 +106,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="25dp"
         android:layout_below="@id/carne"
+        android:textColor="@color/white"
         android:text="0"
         android:textSize="20dp"
         />
@@ -107,6 +119,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="25dp"
         android:layout_below="@id/carne"
+        android:textColor="@color/white"
         android:text="@string/latas_de_cerveja"
         android:textSize="20dp"
         />
@@ -126,6 +139,7 @@
         android:layout_toRightOf="@+id/refri"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="25dp"
+        android:textColor="@color/white"
         android:layout_below="@+id/beer"
         android:text="0"
         android:textSize="20dp"
@@ -139,6 +153,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="25dp"
         android:layout_below="@+id/beer"
+        android:textColor="@color/white"
         android:text="Refrigerante de 2L"
         android:textSize="20dp"
         />
@@ -146,10 +161,12 @@
     <Button
         android:id="@+id/button_calcular"
         android:layout_width="200dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
         android:layout_below="@+id/refri"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
         android:text="Calcular"/>
 
 </RelativeLayout>

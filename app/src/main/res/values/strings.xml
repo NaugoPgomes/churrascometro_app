@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Churrascometro</string>
-    <string name="adutos_que_bebem">Adutos que Bebem</string>
-    <string name="adutos_que_n_o_bebem">Adutos que não Bebem</string>
+    <string name="adutos_que_bebem">Adutos que bebem</string>
+    <string name="adutos_que_n_o_bebem">Adutos que não bebem</string>
     <string name="quantidade_de_criancas">Quantidade de crianças</string>
     <string name="dura_o_do_churrasco_em_horas">Duração do churrasco em Horas</string>
     <string name="kg_de_carne">Kg de carne</string>
