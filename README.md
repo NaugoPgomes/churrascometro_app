@@ -1,7 +1,5 @@
 # Churrascômetro App
 
-o App foi feito em kotlin, 
-
 ## 📝 informações sobre o projeto 
  O churrascômetro calcula a quantidade de cerveja, carne e refrigerante que vai precisar para o churrasco.
  
