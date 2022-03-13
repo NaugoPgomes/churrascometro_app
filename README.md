@@ -11,11 +11,11 @@
   
   ## algumas fotos do app
   
-  ![1](https://user-images.githubusercontent.com/80015739/158022535-6e7cc987-6ceb-484d-8f3a-3f378380deb8.png)
-  ![2](https://user-images.githubusercontent.com/80015739/158022552-3e3b6b3c-3ae0-4add-922b-1ee0180ec544.png)
-  ![3](https://user-images.githubusercontent.com/80015739/158022561-b4f34432-c381-4777-812b-0c5b992985f3.png)
-  ![4](https://user-images.githubusercontent.com/80015739/158022572-d0e13449-2001-4aa6-aa29-5062d905546c.png)
-  ![5](https://user-images.githubusercontent.com/80015739/158022581-a1fac186-f4dd-4074-b62b-2cf39225d652.png)
+  ![1](https://user-images.githubusercontent.com/80015739/158076032-d40b710e-587b-494b-8011-66f7fac653ad.png)
+  ![2](https://user-images.githubusercontent.com/80015739/158076043-74b08a5a-4797-459e-b65c-68069e22ccaf.png)
+  ![3](https://user-images.githubusercontent.com/80015739/158076048-6a1836b0-30b9-486a-b068-ba3e4b929b30.png)
+  ![4](https://user-images.githubusercontent.com/80015739/158076056-1c356c00-04c5-4fa2-8af3-aa9e5d503f28.png)
+  ![5](https://user-images.githubusercontent.com/80015739/158076063-c27951bd-c17a-4f1b-bb54-f12b4b8c8ba4.png)
   
   ## Informações 
 
