@@ -17,7 +17,7 @@
         android:layout_marginTop="30dp"
         android:textColor="@color/white"
         android:inputType="number"
-        android:hint="@string/adutos_que_bebem"
+        android:hint="@string/adultos_que_bebem"
         />
 
     <EditText
@@ -29,7 +29,7 @@
         android:textColor="@color/white"
         android:layout_below="@+id/adutos"
         android:inputType="number"
-        android:hint="@string/adutos_que_n_o_bebem"
+        android:hint="@string/adultos_que_n_o_bebem"
         />
 
     <EditText
