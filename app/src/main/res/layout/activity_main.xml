@@ -18,7 +18,7 @@
         android:textColor="@color/white"
         android:inputType="number"
         android:hint="@string/adultos_que_bebem"
-        />
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/aduto_n_bebem"
@@ -30,7 +30,7 @@
         android:layout_below="@+id/adutos"
         android:inputType="number"
         android:hint="@string/adultos_que_n_o_bebem"
-        />
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/criancas"
@@ -42,7 +42,7 @@
         android:layout_below="@+id/aduto_n_bebem"
         android:inputType="number"
         android:hint="@string/quantidade_de_criancas"
-        />
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/duracao"
@@ -54,7 +54,7 @@
         android:layout_below="@+id/criancas"
         android:inputType="number"
         android:hint="@string/dura_o_do_churrasco_em_horas"
-        />
+        android:autofillHints="" />
 
     <ImageView
         android:id="@+id/carne"
@@ -62,32 +62,32 @@
         android:layout_height="50dp"
         android:src="@drawable/carne"
         android:layout_marginTop="60dp"
-        android:layout_below="@+id/duracao"/>
+        android:layout_below="@+id/duracao" />
 
     <TextView
         android:id="@+id/valor_carne"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_toRightOf="@+id/carne"
-        android:layout_marginLeft="30dp"
+        android:layout_toEndOf="@+id/carne"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="70dp"
         android:textColor="@color/white"
         android:layout_below="@+id/duracao"
-        android:text="0"
-        android:textSize="20dp"/>
+        android:text="@string/_0"
+        android:textSize="20sp"/>
 
 
     <TextView
         android:id="@+id/text_carne"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_toRightOf="@+id/valor_carne"
-        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/valor_carne"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="70dp"
         android:textColor="@color/white"
         android:layout_below="@+id/duracao"
         android:text="@string/kg_de_carne"
-        android:textSize="20dp"
+        android:textSize="20sp"
         />
 
     <ImageView
@@ -96,13 +96,13 @@
         android:layout_height="50dp"
         android:src="@drawable/beer"
         android:layout_marginTop="15dp"
-        android:layout_below="@+id/carne"/>
+        android:layout_below="@+id/carne" />
 
     <TextView
         android:id="@+id/valor_beer"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_toRightOf="@+id/beer"
+        android:layout_toEndOf="@+id/beer"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="25dp"
         android:layout_below="@id/carne"

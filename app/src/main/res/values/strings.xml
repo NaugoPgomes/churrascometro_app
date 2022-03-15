@@ -7,4 +7,9 @@
     <string name="kg_de_carne">Kg de carne</string>
     <string name="latas_de_cerveja">Latas de Cerveja</string>
     <string name="entrar">Entrar</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="ainda_n_o_tem_uma_conta_cadastre_se">Ainda não tem uma conta ? Cadastre-se</string>
+    <string name="_0">0</string>
+
 </resources>

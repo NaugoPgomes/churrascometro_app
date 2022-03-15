@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.core.widget.NestedScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -20,7 +16,7 @@
         android:src="@drawable/icon_login"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/container"
@@ -33,22 +29,24 @@
     <EditText
         android:id="@+id/email"
         style="@style/Edit_Text"
-        android:hint="Email"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
-        android:drawableRight="@drawable/ic_email"
+        android:drawableEnd="@drawable/ic_email"
         app:layout_constraintStart_toStartOf="@+id/container"
         app:layout_constraintEnd_toEndOf="@+id/container"
-        app:layout_constraintTop_toTopOf="@+id/container"/>
+        app:layout_constraintTop_toTopOf="@+id/container"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/senha"
         style="@style/Edit_Text"
         android:inputType="textPassword"
-        android:hint="Senha"
-        android:drawableRight="@drawable/ic_eye"
+        android:hint="@string/senha"
+        android:drawableEnd="@drawable/ic_eye"
         app:layout_constraintStart_toStartOf="@+id/container"
         app:layout_constraintEnd_toEndOf="@+id/container"
-        app:layout_constraintTop_toBottomOf="@+id/email"/>
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        android:autofillHints="" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
@@ -72,11 +70,10 @@
         android:textColor="@color/black"
         android:layout_marginTop="60dp"
         android:layout_marginBottom="40dp"
-        android:text="Ainda não tem uma conta ? Cadastre-se"
+        android:text="@string/ainda_n_o_tem_uma_conta_cadastre_se"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.core.widget.NestedScrollView>

@@ -49,7 +49,7 @@ class CadastroActivity : AppCompatActivity() {
                     else
                     {
                         Toast.makeText(this, task.exception!!.message, Toast.LENGTH_SHORT).show()
-                        startActivity(Intent(this, MainActivity::class.java))
+                        startActivity(Intent(this, CadastroActivity::class.java))
                         finish()
                     }
 
