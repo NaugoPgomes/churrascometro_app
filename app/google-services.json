@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "151475185280",
+    "project_id": "churrascometro-2660d",
+    "storage_bucket": "churrascometro-2660d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151475185280:android:27c6c300edeb81d25e2865",
+        "android_client_info": {
+          "package_name": "com.naugo.churrascometro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151475185280-pem3fqeju9ju8c87j43i2sj41f8de668.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naugo.churrascometro",
+            "certificate_hash": "10be78a032427d6e6333543fc928fd07ef66a79b"
+          }
+        },
+        {
+          "client_id": "151475185280-00m5c0fl9uqtkcaoqo0kb5m3qvf2nedn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2yD-sJG4sEXDR8JAl_KyVCC4sWMfCDPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151475185280-00m5c0fl9uqtkcaoqo0kb5m3qvf2nedn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

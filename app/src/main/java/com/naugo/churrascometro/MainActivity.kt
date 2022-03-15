@@ -1,19 +1,32 @@
 package com.naugo.churrascometro
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_main.*
 import java.lang.NumberFormatException
 import kotlin.math.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
+
+    private lateinit var user: FirebaseAuth
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        user = FirebaseAuth.getInstance()
+
         button_calcular.setOnClickListener(this)
+
+        signOut.setOnClickListener{
+            user.signOut()
+            startActivity(Intent(this, LoginActivity::class.java))
+            finish()
+        }
     }
 
     override fun onClick(view: View)
