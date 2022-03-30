@@ -12,6 +12,7 @@
   ## algumas fotos do app
   
   ![6](https://user-images.githubusercontent.com/80015739/158426350-36f8aa9a-6cc5-42d3-b656-c0aa1a29b0b8.png)
+  ![8](https://user-images.githubusercontent.com/80015739/160862678-7e6c5e33-acd8-47cf-b6f2-a656313e7fcb.png)
   ![7](https://user-images.githubusercontent.com/80015739/158426397-6a7599da-80c8-4bec-ba2c-87778356cf20.png)
   ![1](https://user-images.githubusercontent.com/80015739/158076032-d40b710e-587b-494b-8011-66f7fac653ad.png)
   ![2](https://user-images.githubusercontent.com/80015739/158076043-74b08a5a-4797-459e-b65c-68069e22ccaf.png)
@@ -27,12 +28,14 @@
 
 + Cadastro 
 + Login
++ Login com digital
 + calcula a quantidade necessária de carne, cerveja e refrigerante para um churrasco
   
   ## Informações adicionais
 
 + o App faz uma pequena validação para não permitir valores nulos, caso seja inserido um valor nulo, o app vai exibir uma mensagem de aviso.
 + o App faz uma validação que não permite colocar o valor 0 na área de horário, caso seja inserido o valor 0 na área de horário, o app vai exibir uma mensagem de aviso.
++ se o usuário já tiver feito o login com e-mail e senha, na próxima vez que for entrar ele pode usar a digital, isso se o dispositivo possuir digital. o app usa a verificação de currentUser do Firebase para saber se o usuário está logado, se ele já estiver logado ele pode entrar com a digital se quiser.
 + o App foi feito em kotlin.
 + o App so funciona em dispositivos android.
   
