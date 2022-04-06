@@ -12,7 +12,7 @@
   ## algumas fotos do app
   
   ![6](https://user-images.githubusercontent.com/80015739/158426350-36f8aa9a-6cc5-42d3-b656-c0aa1a29b0b8.png)
-  ![8](https://user-images.githubusercontent.com/80015739/160862678-7e6c5e33-acd8-47cf-b6f2-a656313e7fcb.png)
+  ![8](https://user-images.githubusercontent.com/80015739/161674677-5fbecbfd-bbc9-4eb5-998f-ae2553cf2f2c.png)
   ![7](https://user-images.githubusercontent.com/80015739/158426397-6a7599da-80c8-4bec-ba2c-87778356cf20.png)
   ![1](https://user-images.githubusercontent.com/80015739/158076032-d40b710e-587b-494b-8011-66f7fac653ad.png)
   ![2](https://user-images.githubusercontent.com/80015739/158076043-74b08a5a-4797-459e-b65c-68069e22ccaf.png)
