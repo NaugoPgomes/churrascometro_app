@@ -26,38 +26,46 @@ class CadastroActivity : AppCompatActivity() {
         button.setOnClickListener{
             registerUser()
         }
-
-
+        
     }
 
     private fun registerUser()
     {
         val email = emailCadastro.text.toString()
         val senha = senhaCadastro.text.toString()
+        val confirmar_senha = confirmarSenhaCadastro.text.toString()
 
         if(email.isNotEmpty() && senha.isNotEmpty())
         {
-            user.createUserWithEmailAndPassword(email,senha)
-                .addOnCompleteListener(CadastroActivity()) {task ->
+            if(senha.equals(confirmar_senha))
+            {
+                user.createUserWithEmailAndPassword(email,senha)
+                    .addOnCompleteListener(CadastroActivity()) {task ->
 
-                    if (task.isSuccessful)
-                    {
-                        Toast.makeText(this, "Usuario Cadastrado", Toast.LENGTH_SHORT).show()
-                        startActivity(Intent(this, MainActivity::class.java))
-                        finish()
-                    }
-                    else
-                    {
-                        Toast.makeText(this, task.exception!!.message, Toast.LENGTH_SHORT).show()
-                        startActivity(Intent(this, CadastroActivity::class.java))
-                        finish()
-                    }
+                        if (task.isSuccessful)
+                        {
+                            Toast.makeText(this, "Usuario Cadastrado", Toast.LENGTH_SHORT).show()
+                            startActivity(Intent(this, MainActivity::class.java))
+                            finish()
+                        }
+                        else
+                        {
+                            Toast.makeText(this, task.exception!!.message, Toast.LENGTH_SHORT).show()
+                            startActivity(Intent(this, CadastroActivity::class.java))
+                            finish()
+                        }
 
-                }
+                    }
+            }
+            else
+            {
+                Toast.makeText(this, "Os dois campos de senha tem que ser iguais", Toast.LENGTH_SHORT).show()
+            }
+
         }
         else
         {
-            Toast.makeText(this, "Email e password Não podem estar vazios", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Email e senha Não podem estar vazios", Toast.LENGTH_SHORT).show()
         }
     }
 }

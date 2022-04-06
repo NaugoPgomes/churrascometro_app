@@ -18,12 +18,14 @@ import java.util.concurrent.Executor
 
 class LoginActivity : AppCompatActivity() {
 
+
     private lateinit var user: FirebaseAuth
 
     @SuppressLint("WrongViewCast")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+
 
         user = FirebaseAuth.getInstance()
 

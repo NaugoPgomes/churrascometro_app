@@ -25,10 +25,11 @@
     <View
         android:id="@+id/container"
         style="@style/ContainerComponents"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="367dp"
+        android:layout_height="342dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tituloCadastro"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tituloCadastro" />
 
     <EditText
 
@@ -54,6 +55,18 @@
         app:layout_constraintEnd_toEndOf="@id/container"
         />
 
+    <EditText
+
+        android:id="@+id/confirmarSenhaCadastro"
+        style="@style/Edit_Text"
+        android:hint="Confirmar Senha"
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/ic_eye"
+        app:layout_constraintTop_toBottomOf="@+id/senhaCadastro"
+        app:layout_constraintStart_toStartOf="@id/container"
+        app:layout_constraintEnd_toEndOf="@id/container"
+        />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
         style="@style/button"
@@ -63,7 +76,7 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/senhaCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/confirmarSenhaCadastro"
 
         />
 
