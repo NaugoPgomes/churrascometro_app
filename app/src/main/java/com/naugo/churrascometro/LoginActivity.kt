@@ -1,6 +1,7 @@
 package com.naugo.churrascometro
 
 import android.annotation.SuppressLint
+import android.app.ProgressDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -86,9 +87,15 @@ class LoginActivity : AppCompatActivity() {
         val email = email.text.toString()
         val senha = senha.text.toString()
 
+        val progressDialog = ProgressDialog(this@LoginActivity)
+        progressDialog.setMessage("Carregando...")
+        progressDialog.show()
+
         if (email.isNotEmpty() && senha.isNotEmpty()) {
             user.signInWithEmailAndPassword(email, senha)
                 .addOnCompleteListener { mTask ->
+
+                    progressDialog.dismiss()
 
                     if (mTask.isSuccessful) {
                         startActivity(Intent(this, MainActivity::class.java))

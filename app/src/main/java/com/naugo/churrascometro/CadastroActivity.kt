@@ -1,6 +1,7 @@
 package com.naugo.churrascometro
 
 import android.annotation.SuppressLint
+import android.app.ProgressDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -35,12 +36,17 @@ class CadastroActivity : AppCompatActivity() {
         val senha = senhaCadastro.text.toString()
         val confirmar_senha = confirmarSenhaCadastro.text.toString()
 
+        val progressDialog = ProgressDialog(this@CadastroActivity)
+        progressDialog.setMessage("Carregando...")
+        progressDialog.show()
+
         if(email.isNotEmpty() && senha.isNotEmpty())
         {
             if(senha.equals(confirmar_senha))
             {
                 user.createUserWithEmailAndPassword(email,senha)
                     .addOnCompleteListener(CadastroActivity()) {task ->
+                        progressDialog.dismiss()
 
                         if (task.isSuccessful)
                         {
@@ -59,6 +65,7 @@ class CadastroActivity : AppCompatActivity() {
             }
             else
             {
+                progressDialog.dismiss()
                 Toast.makeText(this, "Os dois campos de senha tem que ser iguais", Toast.LENGTH_SHORT).show()
             }
 
